@@ -16,6 +16,7 @@ class App extends StatelessWidget {
   // test 4
   // test 3
   // test 5
+  // test 6
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
