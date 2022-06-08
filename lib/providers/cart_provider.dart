@@ -5,6 +5,8 @@ import '../models/cart_item_model.dart';
 class CartProvider with ChangeNotifier {
   final Map<String, CartItemModel> _cartItems = {};
 
+  // test
+
   Map<String, CartItemModel> get cartItems {
     return {..._cartItems};
   }
